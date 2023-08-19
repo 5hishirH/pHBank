@@ -12,9 +12,11 @@ document.getElementById("loginBtn").addEventListener("click", function () {
 
     // danger: do not verify user and pass on client side
     if (emailField === "angkon@halder.com" && passField === "hello") {
-        console.log("valid user");
+        // console.log("valid user");
+        window.location.href = "bank.html";
     }
     else {
-        console.log("invalid user");
+        // console.log("invalid user");
+        alert("Invaild user and pass pair");
     }
 }); // can't be called a predefined function with click
