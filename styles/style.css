@@ -1,0 +1,33 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.loginPageTitle {
+    text-align: center;
+}
+
+.loginFormContainer {
+    display: flex;
+    flex-direction: column;
+    /* gap: 8px; */
+    width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    border: 2px solid blueviolet;
+    padding: 16px;
+}
+
+#loginEmailIn {
+    width: 100%;
+}
+
+#loginPassIn {
+    margin: 8px 0;
+    width: 100%;
+}
+
+/* #loginBtn {
+    width: fit-content;
+} */
